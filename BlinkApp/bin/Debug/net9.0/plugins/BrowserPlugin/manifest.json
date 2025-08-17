@@ -1,0 +1,7 @@
+{
+  "id": "browser-plugin",
+  "name": "Browser Plugin",
+  "version": "1.0.0",
+  "entry": "plugin.json",
+  "type": "json"
+}

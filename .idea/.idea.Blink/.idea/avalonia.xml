@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="BlinkApp/App.axaml" value="BlinkApp/BlinkApp.csproj" />
+        <entry key="BlinkApp/Views/MainWindow.axaml" value="BlinkApp/BlinkApp.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
