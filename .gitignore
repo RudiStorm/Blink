@@ -1,0 +1,31 @@
+# .gitignore for Blink project
+
+# Build directories
+[Bb]in/
+[Oo]bj/
+
+# Publish output
+publish/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider files
+*.idea/
+
+# NuGet packages
+*.nupkg
+
+# Resharper
+_ReSharper*/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
