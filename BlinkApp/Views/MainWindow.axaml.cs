@@ -1,12 +1,11 @@
-using System;
-using System.Diagnostics;
-using System.Linq;
-using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Interactivity;
 using BlinkApp.Models;
 using BlinkApp.ViewModels;
+using System;
+using System.Diagnostics;
+using System.Linq;
 
 namespace BlinkApp.Views
 {
@@ -46,16 +45,16 @@ namespace BlinkApp.Views
             if (SearchResults.SelectedItem is SearchResult sr && sr.Actions?.Any() == true)
             {
                 var action = sr.Actions.First();
+                
                 var cmd = action.Command;
-                if (!string.IsNullOrWhiteSpace(cmd))
+                if (string.IsNullOrWhiteSpace(cmd)) return;
+             
+                var psi = new ProcessStartInfo
                 {
-                    var psi = new ProcessStartInfo
-                    {
-                        FileName = cmd,
-                        UseShellExecute = true
-                    };
-                    Process.Start(psi);
-                }
+                    FileName = cmd,
+                    UseShellExecute = true
+                };
+                Process.Start(psi);
             }
         }
     }
