@@ -5,7 +5,7 @@
   },
   "projects": {
     "/Users/rudistorm/Documents/GitHub/Blink/BlinkApp/BlinkApp.csproj": {
-      "version": "0.1.0",
+      "version": "0.1.56",
       "restore": {
         "projectUniqueName": "/Users/rudistorm/Documents/GitHub/Blink/BlinkApp/BlinkApp.csproj",
         "projectName": "BlinkApp",
