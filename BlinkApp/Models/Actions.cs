@@ -6,7 +6,7 @@ namespace BlinkApp.Models
     {
         public string Title { get; set; }
 
-        public IconElement Icon { get; set; }
+        public IconElement? Icon { get; set; }
 
         // Command to execute
         public string Command { get; set; }

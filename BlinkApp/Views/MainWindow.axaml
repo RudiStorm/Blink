@@ -8,7 +8,7 @@
         Opacity="1"
         TransparencyLevelHint="Blur">
     <Window.Background>
-        <SolidColorBrush Color="#00000000"/>
+        <SolidColorBrush Color="#FF000000"/>
     </Window.Background>
     <Window.Styles>
         <Style Selector="TextBox">
